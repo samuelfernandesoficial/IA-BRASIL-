@@ -71,11 +71,11 @@ O cérebro rodava com 2 threads e com **prioridade MENOR que todo o resto do sis
 ## 🔁 Como reproduzir (na máquina do sistema)
 
 ```bat
-ATIVA-QUANTICA-REAL.bat   → levanta e prova o núcleo quântico local (grava RESULTADO-QUANTICA-REAL.txt)
-TURBO-QUANTICO.bat        → sobe o cérebro em modo turbo (-t 4 + prioridade High) e mede a velocidade
-bench-cerebro.ps1         → velocímetro do cérebro (tok/s real, antes/depois)
-bench_quantico.py         → bateria quântica (Bell ×1000, GHZ-20, GHZ-24)
-INICIA-TURBO-NORMAL.bat   → reinício limpo do cérebro em turbo
+ATIVA-QUANTICA-REAL.bat       → levanta e prova o núcleo quântico local (grava RESULTADO-QUANTICA-REAL.txt)
+LIGA-TURBO-QUANTICO.bat       → ativa o modo turbo (ligador privado do titular) e mede a velocidade
+MEDIR-VELOCIDADE-NUCLEO.bat   → medição oficial de velocidade do núcleo (tok/s real)
+bench-nucleo.ps1              → velocímetro do núcleo (tok/s real, antes/depois)
+bench_quantico.py             → bateria quântica (Bell ×1000, GHZ-20, GHZ-24)
 ```
 
 Scripts oficiais desta bateria: [`docs/scripts-testes/`](scripts-testes/)
