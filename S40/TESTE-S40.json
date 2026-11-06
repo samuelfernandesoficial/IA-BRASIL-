@@ -1,0 +1,83 @@
+{
+ "data_iso": "2026-11-05 22:17:15",
+ "kernel": "S40",
+ "papel": "cofre de memoria episodica e catalogo de estados",
+ "numpy_disponivel": true,
+ "cofre_real": {
+  "modulo": "s80_memory.S80Memory",
+  "bytes_cofre": 2478,
+  "formato": "S80-MEMORY/1",
+  "status": {
+   "cofre": "D:\\FUSION6\\IA-PRO\\cerebro_pesado_dados\\cofre_s40.s40",
+   "formato": "S80-MEMORY/1",
+   "registros": 13,
+   "tipos": {
+    "estado_amplitudes": 13
+   }
+  },
+  "entradas": 13,
+  "amostra_chaves": [
+   "ep_0458686ec4",
+   "ep_06e8a4c477",
+   "ep_09296dbf09",
+   "ep_362c701411",
+   "ep_4a4f4e6a66",
+   "ep_5955e21013",
+   "ep_69c9b0f640",
+   "ep_71a584dac0"
+  ],
+  "catalogo_grande_presente": true
+ },
+ "escrita": {
+  "escritas": 30,
+  "dim": 32,
+  "ms_total": 31.96,
+  "ms_medio": 1.065,
+  "ms_max": 1.906,
+  "bytes_apos_escritas": 16501
+ },
+ "leitura": {
+  "exemplo_retorno": "[[\"ep_000\", 1.0], [\"ep_023\", 0.164072], [\"ep_021\", 0.104698]]",
+  "consultas_exatas": 10,
+  "acertos_top1": 10,
+  "taxa_acerto": 100.0,
+  "ms_medio_recuperar": 0.828,
+  "consultas_genericas": 20,
+  "ms_medio_genericas": 0.863
+ },
+ "estado_quantico": {
+  "salvar_ms": 2.635,
+  "carregar_ms": 0.289,
+  "tipo_retorno": "S80Qubit",
+  "vetor_identico_apos_ida_e_volta": true,
+  "circuito_e_resultado_registrados": true
+ },
+ "persistencia": {
+  "bytes": 16774,
+  "entradas_antes": 32,
+  "entradas_apos_reabrir": 32,
+  "sobreviveu_ao_reiniciar": true,
+  "estado_quantico_ainda_legivel": true
+ },
+ "estresse": {
+  "escritas_300_ms": 1509.6,
+  "escritas_por_segundo": 198.7,
+  "leituras_300_ms": 2912.7,
+  "leituras_por_segundo": 103.0,
+  "bytes_final": 277784,
+  "rascunho_apagado": true
+ },
+ "episodios": {
+  "disponivel": true,
+  "arq_episodios": "episodios.jsonl",
+  "episodios_gravados": 17,
+  "relembrar_ms_como": 1.05,
+  "achados_como": 3,
+  "relembrar_ms_notebook": 0.99,
+  "achados_notebook": 1,
+  "relembrar_ms_memoria": 0.73,
+  "achados_memoria": 3,
+  "neural_msgs_ms": 0.06,
+  "neural_msgs_n": 1
+ }
+}
