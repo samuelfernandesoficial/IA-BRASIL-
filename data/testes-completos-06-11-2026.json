@@ -2,7 +2,7 @@
   "titulo": "Testes completos IA Brasil - nucleo quantico real levantado + cerebro turbo",
   "data": "2026-11-06",
   "maquina": {
-    "nome": "DESKTOP-I6MC4BO",
+    "nome": "maquina do autor (2012)",
     "cpu": "Intel Core i7-3770 (4 nucleos / 8 threads, 3.4 GHz, Ivy Bridge, sem AVX2)",
     "ram_total_gb": 16.0,
     "ram_livre_inicio_gb": 4.37,
@@ -50,14 +50,12 @@
   },
   "cerebro_neural_local": {
     "modelo": "nucleo neural local IA Brasil (6.17 GB, quantizacao 4-bit)",
-    "servidor": "servidor neural local 127.0.0.1:8540",
+    "servidor": "servidor neural local da IA Brasil (local)",
     "contexto_tokens": 32768,
-    "flash_attn": true,
-    "kv_cache": "q8_0",
     "modelo_alterado": false,
     "antes": {
       "threads": 2,
-      "prioridade": "BelowNormal",
+      "prioridade": "baixa",
       "http_tok_s": 1.19,
       "http_ms_total": 67174,
       "tokens_gerados": 80,
@@ -66,9 +64,7 @@
     },
     "turbo": {
       "threads": 4,
-      "threads_batch": 4,
-      "prioridade": "High",
-      "afinidade_mascara": "0x55 (4 nucleos fisicos)",
+      "prioridade": "alta (4 nucleos fisicos)",
       "medicoes_http_tok_s": [1.91, 1.77, 1.90],
       "medicoes_servidor_tok_s": [2.23, 1.76, 1.91],
       "prefill_tok_s": [3.68, 2.18, 2.76],
@@ -80,7 +76,7 @@
     "tokens_gerados_real": 80
   },
   "raciocinio_quantico_nucleo_vivo": {
-    "servico": "S160-NUCLEO-RACIOCINIO v5-LIVRE na porta 8822 (pythonw, cadeia oficial chat->8822->8540)",
+    "servico": "S160-NUCLEO-RACIOCINIO v5-LIVRE (cadeia oficial de raciocinio da IA Brasil)",
     "acionador": "LIGA-NUCLEO-VIVO.bat",
     "roteador_born": true,
     "exato_12x7": {"resposta": 84, "tempo_s": 0.0, "rota": "MATEMATICA-EXATA (AST)"},
@@ -91,7 +87,7 @@
       "perfil_alvo": "S80",
       "tempo_rascunho_s": 90.94,
       "rascunho_correto": true,
-      "refino": "profundo ao fundo, teto 768 tokens (escrita sem limites)"
+      "refino": "profundo ao fundo"
     },
     "s80_quente_cache": {"cache": true, "tempo_rascunho_s": 0.0, "ganho": "90.94s -> 0.0s"},
     "modulos_on": ["roteador de Born", "matematica exata (AST sem eval)", "banco de fatos", "memoria QX (10 episodios)", "escrita sem limites", "tela de programacao ao vivo"],
