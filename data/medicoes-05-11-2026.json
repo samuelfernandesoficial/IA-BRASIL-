@@ -1,0 +1,147 @@
+{
+ "data_iso": "2026-11-05 21:10:55",
+ "maquina": {
+  "ram_mb": {},
+  "ram_mb_depois": {}
+ },
+ "flash": {
+  "casos": [
+   {
+    "familia": "aritmetica",
+    "ms": 3.2,
+    "verificado": true,
+    "modulo": "aritmetica",
+    "chars": 302
+   },
+   {
+    "familia": "aritmetica",
+    "ms": 1.08,
+    "verificado": true,
+    "modulo": "aritmetica",
+    "chars": 331
+   },
+   {
+    "familia": "sequencia",
+    "ms": 1.44,
+    "verificado": true,
+    "modulo": "sequencias",
+    "chars": 385
+   },
+   {
+    "familia": "silogismo",
+    "ms": 1.42,
+    "verificado": true,
+    "modulo": "logica",
+    "chars": 385
+   },
+   {
+    "familia": "idades",
+    "ms": 5.98,
+    "verificado": true,
+    "modulo": "idades",
+    "chars": 401
+   },
+   {
+    "familia": "probabilidade",
+    "ms": 1.21,
+    "verificado": true,
+    "modulo": "probabilidade",
+    "chars": 394
+   },
+   {
+    "familia": "codigo",
+    "ms": 5.74,
+    "verificado": true,
+    "modulo": "codigo",
+    "chars": 899
+   },
+   {
+    "familia": "codigo",
+    "ms": 1.17,
+    "verificado": true,
+    "modulo": "codigo",
+    "chars": 688
+   },
+   {
+    "familia": "fora-das-familias",
+    "ms": 0.88,
+    "verificado": false,
+    "modulo": "honestidade",
+    "chars": 204
+   }
+  ],
+  "resumo": {
+   "casos": 9,
+   "verificados": 8,
+   "ms_medio_verificados": 2.66
+  }
+ },
+ "maximo": {
+  "casos": [
+   {
+    "tarefa": "quanto e 47*23+150",
+    "ms": 0.87,
+    "respondeu": false,
+    "chars": 0
+   },
+   {
+    "tarefa": "escreva um programa que soma dois numeros",
+    "ms": 5.41,
+    "respondeu": true,
+    "chars": 1149
+   },
+   {
+    "tarefa": "plano de estudos de python em 30 dias",
+    "ms": 39.36,
+    "respondeu": true,
+    "chars": 909
+   },
+   {
+    "tarefa": "pensa: vale a pena notebook ou desktop para es",
+    "ms": 33.79,
+    "respondeu": true,
+    "chars": 2885
+   }
+  ]
+ },
+ "nucleo_8540": {
+  "curto": {
+   "total_s": 16.94,
+   "prompt_tokens": 13,
+   "prompt_tok_s": 3.77,
+   "eval_tokens": 32,
+   "eval_tok_s": 2.34,
+   "resposta": "Memória RAM é uma memória de acesso aleatório que permite que o computador leia e escreva dados em qualquer local da mem"
+  },
+  "mat": {
+   "total_s": 21.93,
+   "prompt_tokens": 17,
+   "prompt_tok_s": 2.38,
+   "eval_tokens": 32,
+   "eval_tok_s": 2.1,
+   "resposta": " 1097\n\n```python\n# Calculando o resultado da expressão\nresultado = 47 * 23 + 150\n\n# Exibindo o"
+  }
+ },
+ "s80": {
+  "init_24q_ms": 93.21,
+  "hadamard_x24_ms": 9350.61,
+  "cnot_chain_x23_ms": 16386.88,
+  "entropia_8q_ms": 18020.87,
+  "entropia_valor": -0.0,
+  "measure_1024shots_ms": 434.29,
+  "grover_20q_ms": 1.62,
+  "grover_ok": true,
+  "grover_iter": "?",
+  "fidelidade_erro": "TypeError: must be real number, not S80Qubit",
+  "ec3_ms": 0.25,
+  "ec3_qubits_saida": "?"
+ },
+ "cerebro_pesado": {
+  "disponivel": true,
+  "relembrar_ms": 1.37,
+  "episodios": 1,
+  "diversificar_ms": 1.9,
+  "neural_msgs_ms": 0.04,
+  "neural_msgs_n": 1
+ }
+}
