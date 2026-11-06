@@ -71,6 +71,18 @@ A camada de protocolo (Grover de 20 qubits em **1,62 ms**, correção EC3 em **0
 
 ---
 
+## 📁 Dossiês técnicos por kernel — testes reais de 05/11/2026 (noite)
+
+Cada kernel ganhou um dossiê próprio, com relatório PDF de 7 páginas, gráficos medidos e medições brutas — testados um por um, na máquina real, via suíte padrão:
+
+| Dossiê | Destaques medidos | Link |
+|---|---|---|
+| 🔐 **S40** — cofre de memória | escrita 1,065 ms · recuperação top-1 **100%** · estado quântico 8q persistente | → [`S40/`](S40/) |
+| ⚛️ **S80** — simulador quântico | física de Bell **50/50 exata** · Grover 20q em **1,52 ms** · QFT 0,9999 · 8 ops S80Q | → [`S80/`](S80/) |
+| 🧠 **S160** — orquestrador | chat real **0,24 s** verificado · módulos **10/10** (106 checagens) · episódio gravado no S40 | → [`S160/`](S160/) |
+
+---
+
 ## 🖥️ Hardware do teste (100% real, nada de nuvem)
 
 | Item | Valor |
