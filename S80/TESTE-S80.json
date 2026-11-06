@@ -1,0 +1,138 @@
+{
+ "data_iso": "2026-11-05 22:21:04",
+ "kernel": "S80",
+ "papel": "simulador quantico de estado vetorial e algoritmos",
+ "nucleo_simulador": {
+  "init_24q_ms": 0.21,
+  "hadamard_x24_ms": 8511.66,
+  "cnot_chain_x23_ms": 13279.7,
+  "entropia_8q_ms": 9644.06,
+  "entropia_valor": -0.0,
+  "measure_1024shots_ms": 416.9
+ },
+ "fisica_bell": {
+  "ms": 2.09,
+  "tipo_retorno": "dict",
+  "contagens": {
+   "11": 1046,
+   "00": 1002
+  },
+  "probabilidade_iguais": 1.0,
+  "emaranhamento_ok": true
+ },
+ "algoritmos": {
+  "bernstein_vazirani_ms": 0.74,
+  "bv_esperado": "1011",
+  "bv_obtido": "({'1011': 64}, '1011",
+  "bv_ok": true,
+  "grover_8q_ms": 4.35,
+  "grover_8q_ok": true,
+  "grover_8q_resumo": "[{\"10101010\": 252, \"01100001\": 1, \"10101100\": 1, \"01000100\": 1, \"01011111\": 1}, 13]",
+  "qft_roundtrip_ms": 0.46,
+  "qft_ok": true,
+  "qft_resumo": "0.9999999999999991",
+  "swap_iguais_ms": 3.61,
+  "swap_iguais": "[1.0, 1.0, 1.0]",
+  "swap_diferentes": "[0.474609375, -0.05078125, 0.0]",
+  "kernel_quantum_ms": 0.13,
+  "kernel_matriz": "\"[[1.00000000e+00 9.71199082e-01 7.86369594e-04]\\n [9.71199082e-01 1.00000000e+00 1.10533879e-02]\\n [7.86369594e-04 1.10533879e-02 1.00000000e+00]]\"",
+  "qaoa_maxcut_ms": 137.27,
+  "qaoa_resumo": "[\"1010\", 4, [2.9883, [0.4712, 1.1781]]]",
+  "amostrar_ms": 1.2,
+  "amostrar_ok": true
+ },
+ "protocolo_s80q": {
+  "grover_20q_ms": 1.37,
+  "grover_20q_ok": true,
+  "grover_20q_iteracoes": "?",
+  "modular_buscar": "{\"proto\": \"S80Q\", \"ver\": 1, \"id\": \"9b64955c67a3\", \"ts\": 1793928096.3145702, \"op\": \"grover\", \"intencao\": \"buscar\", \"payload\": {\"n\": 12, \"alvo\": 170}}",
+  "modular_comparar": "{\"proto\": \"S80Q\", \"ver\": 1, \"id\": \"59772f6676b5\", \"ts\": 1793928096.3145702, \"op\": \"swaptest\", \"intencao\": \"comparar\", \"payload\": {}}",
+  "modular_diversificar": "{\"proto\": \"S80Q\", \"ver\": 1, \"id\": \"53b28526239a\", \"ts\": 1793928096.3145702, \"op\": \"sample\", \"intencao\": \"diversificar\", \"payload\": {}}",
+  "modular_otimizar": "{\"proto\": \"S80Q\", \"ver\": 1, \"id\": \"286dd356c360\", \"ts\": 1793928096.3145702, \"op\": \"qaoa\", \"intencao\": \"otimizar\", \"payload\": {}}",
+  "modular_executar": "{\"proto\": \"S80Q\", \"ver\": 1, \"id\": \"fff48172b8e5\", \"ts\": 1793928096.3145702, \"op\": \"run\", \"intencao\": \"executar\", \"payload\": {}}",
+  "modular_verificar": "{\"proto\": \"S80Q\", \"ver\": 1, \"id\": \"e52cc81e2566\", \"ts\": 1793928096.3145702, \"op\": \"ec\", \"intencao\": \"verificar\", \"payload\": {}}",
+  "modular_fourier": "{\"proto\": \"S80Q\", \"ver\": 1, \"id\": \"ea322ba29ef1\", \"ts\": 1793928096.3145702, \"op\": \"qft\", \"intencao\": \"fourier\", \"payload\": {\"n\": 3, \"k\": 5}}",
+  "cadeia_buscar_grover_ms": 131.27,
+  "cadeia_buscar_grover_ok": true,
+  "cadeia_buscar_resumo": "{\"proto\": \"S80Q\", \"ver\": 1, \"id\": \"0069417a4aeb\", \"req_op\": \"grover\", \"ok\": true, \"result\": {\"counts\": {\"000010101010\": 1024}, \"iteracoes\": 50, \"top\": \"000010101010\", \"taxa_alvo\": 1.0, \"speedup_teoric",
+  "ops_aceitas": [
+   "grover",
+   "qft",
+   "kernel",
+   "qaoa",
+   "swaptest",
+   "sample",
+   "ec",
+   "run"
+  ],
+  "ops_negadas": [
+   "bernstein",
+   "bernstein_vazirani",
+   "swap_test",
+   "medir",
+   "estado",
+   "amostrar",
+   "entropia",
+   "codificar",
+   "fidelidade",
+   "eco"
+  ],
+  "n_ops_aceitas": 8
+ },
+ "correcao_fidelidade": {
+  "ec3_codificar_ms": 0.11,
+  "ec3_qubits_saida": "?",
+  "ec3_corrigir_ms": 0.0,
+  "ec3_corrigir_ok": true,
+  "ec3_corrigir_saida": "None",
+  "assinatura_fidelidade": "(a, b)",
+  "atributos_registrador": [
+   "ccx",
+   "clone",
+   "cnot",
+   "coerencia",
+   "cp",
+   "cswap",
+   "cz",
+   "de_estado",
+   "entropia",
+   "expect_z",
+   "gates",
+   "h",
+   "measure",
+   "measure_collapse",
+   "n",
+   "noise_p",
+   "p",
+   "parity_measure",
+   "probabilidades",
+   "rng"
+  ]
+ },
+ "teto_escala": [
+  {
+   "qubits": 24,
+   "amplitudes": 16777216,
+   "ram": 268435456,
+   "unidade": "B"
+  },
+  {
+   "qubits": 26,
+   "amplitudes": 67108864,
+   "ram": 1.073741824,
+   "unidade": "GB"
+  },
+  {
+   "qubits": 30,
+   "amplitudes": 1073741824,
+   "ram": 17.179869184,
+   "unidade": "GB"
+  },
+  {
+   "qubits": 40,
+   "amplitudes": 1099511627776,
+   "ram": 17.592186044416,
+   "unidade": "TB"
+  }
+ ]
+}
