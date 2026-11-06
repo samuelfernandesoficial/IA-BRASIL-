@@ -1,10 +1,10 @@
-<h1 align="center">🇧🇷 IA BRASIL — Pilha Local de 3 Cérebros</h1>
+<h1 align="center">🇧🇷 IA BRASIL® — Pilha Local de 3 Cérebros</h1>
 
 <p align="center">
   <img src="images/capa.png" width="430" alt="Capa do benchmark técnico IA Brasil">
 </p>
 
-> **Propriedade intelectual de Samuel Ribeiro Fernandes** — © 2026, todos os direitos reservados.
+> **Propriedade intelectual de Samuel Ribeiro Fernandes** — © 2026, todos os direitos reservados. **IA Brasil® é marca registrada.**
 > Benchmark 100% com dados reais, medidos na própria máquina em 05/11/2026, entre 20:31 e 21:20 (hora local).
 
 ---
@@ -77,9 +77,23 @@ Cada kernel ganhou um dossiê próprio, com relatório PDF de 7 páginas, gráfi
 
 | Dossiê | Destaques medidos | Link |
 |---|---|---|
-| 🔐 **S40** — cofre de memória | escrita 1,065 ms · recuperação top-1 **100%** · estado quântico 8q persistente | → [`S40/`](S40/) |
-| ⚛️ **S80** — simulador quântico | física de Bell **50/50 exata** · Grover 20q em **1,52 ms** · QFT 0,9999 · 8 ops S80Q | → [`S80/`](S80/) |
-| 🧠 **S160** — orquestrador | chat real **0,24 s** verificado · módulos **10/10** (106 checagens) · episódio gravado no S40 | → [`S160/`](S160/) |
+| 🔐 **S40** — cofre de memória | escrita 1,065 ms · recuperação top-1 **100%** · estado quântico 8q persistente | → [`RELATORIO-S40 (PDF)`](docs/RELATORIO-S40-COFRE-DE-MEMORIA.pdf) |
+| ⚛️ **S80** — simulador quântico | física de Bell **50/50 exata** · Grover 20q em **1,52 ms** · QFT 0,9999 · 8 ops S80Q | → [`RELATORIO-S80 (PDF)`](docs/RELATORIO-S80-SIMULADOR-QUANTICO.pdf) |
+| 🧠 **S160** — orquestrador | chat real **0,24 s** verificado · módulos **10/10** (106 checagens) · episódio gravado no S40 | → [`RELATORIO-S160 (PDF)`](docs/RELATORIO-S160-ORQUESTRADOR.pdf) |
+
+---
+
+## 🚀 06/11/2026 — Núcleo Quântico Real LEVANTADO + Cérebro Turbo (+60%)
+
+Nova bateria de testes completos, medida e carimbada na máquina:
+
+| Marco | Resultado medido |
+|---|---|
+| ⚛️ **Núcleo quântico local no ar** (Qiskit 2.6.2 no D:, sem chave, sem internet) | Bell ×1.000: **0,348 ms/circuito, emaranhamento 100%** · GHZ-20 oficial: **450 ms** · GHZ-24: **16,7 milhões de amplitudes**, norma válida |
+| 🧠 **Cérebro turbo** (núcleo neural local **intacto**, 2→4 núcleos físicos + prioridade High) | **1,19 → 1,90 tok/s (+60%)** comprovados por benchmark idêntico antes/depois |
+| 🔍 **Causa-raiz histórica resolvida** | O núcleo quântico nunca tinha subido: disco C: cheio matava a instalação do Qiskit em silêncio desde 01/11 |
+
+**Relatório completo:** [`docs/TESTES-COMPLETOS-QUANTICO-TURBO.md`](docs/TESTES-COMPLETOS-QUANTICO-TURBO.md) · **Medições brutas:** [`data/testes-completos-06-11-2026.json`](data/testes-completos-06-11-2026.json) · **Scripts oficiais:** [`docs/scripts-testes/`](docs/scripts-testes/)
 
 ---
 
@@ -121,9 +135,12 @@ ia-brasil/
 │   ├── latencia-camadas.png               ← gráfico de latência por camada
 │   └── s80-operacoes.png                  ← gráfico de operações quânticas
 ├── docs/
-│   └── BENCHMARK-IA-BRASIL-S40-S80-S160.pdf
+│   ├── BENCHMARK-IA-BRASIL-S40-S80-S160.pdf
+│   ├── TESTES-COMPLETOS-QUANTICO-TURBO.md ← testes de 06/11/2026
+│   └── scripts-testes/                    ← scripts oficiais de medição/ativação
 └── data/
-    └── medicoes-05-11-2026.json           ← medições brutas
+    ├── medicoes-05-11-2026.json           ← medições brutas (05/11)
+    └── testes-completos-06-11-2026.json   ← medições brutas (06/11)
 ```
 
 ## 🧭 Limitações e próximos passos
@@ -134,6 +151,8 @@ Amostras de nuvem pequenas e anônimas (ordem de grandeza, não censo); custo do
 
 ## ⚖️ Aviso legal
 
-**PROPRIEDADE INTELECTUAL — AVISO LEGAL.** A pilha IA Brasil, a interface IA-PRO, a ponte FUSION e todos os kernels e módulos descritos aqui — **S40, S80, S160**, o turbo de respostas provadas e o pacote de capacidades — são propriedade intelectual exclusiva de **Samuel Ribeiro Fernandes**, com todos os direitos reservados. **Nenhum código-fonte é divulgado neste repositório**: apenas comportamento observado e métricas medidas. Os sistemas de referência do comparativo aparecem somente como classes genéricas, sem identificação de marcas, por decisão do autor.
+**PROPRIEDADE INTELECTUAL — AVISO LEGAL.** A pilha **IA Brasil®**, a interface IA-PRO, a ponte FUSION e todos os kernels e módulos descritos aqui — **S40, S80, S160**, o turbo de respostas provadas e o pacote de capacidades — são propriedade intelectual exclusiva de **Samuel Ribeiro Fernandes**, com todos os direitos reservados. **IA Brasil® é marca registrada; os nomes S40, S80 e S160 também identificam a tecnologia do titular.** Detalhes internos de implementação não são divulgados. **Nenhum código-fonte é divulgado neste repositório**: apenas comportamento observado e métricas medidas. Os sistemas de referência do comparativo aparecem somente como classes genéricas, sem identificação de marcas, por decisão do autor.
 
 © 2026 Samuel Ribeiro Fernandes. Todos os direitos reservados.
+
+**IA Brasil®** — marca registrada de Samuel Ribeiro Fernandes.
