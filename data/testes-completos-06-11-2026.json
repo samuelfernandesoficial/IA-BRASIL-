@@ -17,7 +17,11 @@
     "gargalo_disco": "nao (ocioso 95-99%)",
     "gargalo_real": "cerebro com -t 2 e prioridade BelowNormal + competicao de CPU (chrome, WinUsbDisplay)",
     "defender_exclusao_sistema": true,
-    "competidores_cpu_acumulado_s": {"chrome": 1796.3, "WinUsbDisplay": 1721.0, "dwm": 780.6}
+    "competidores_cpu_acumulado_s": {
+      "chrome": 1796.3,
+      "WinUsbDisplay": 1721.0,
+      "dwm": 780.6
+    }
   },
   "quantico_local": {
     "motor": "Qiskit 2.6.2 Statevector (matematica exata, local, sem chave, sem internet)",
@@ -31,20 +35,24 @@
     },
     "ghz_20_nucleo_oficial_s160": {
       "amplitudes": 1048576,
-      "montagem_ms": [442.9, 450.1],
+      "montagem_ms": [
+        442.9,
+        450.1
+      ],
       "estado_dominante": "00000000000000000000",
       "prob_dominante_pct": 50.0
     },
     "ghz_24_carga_maxima": {
       "amplitudes": 16777216,
-      "tempo_ms": [8583.3, 8726.1],
+      "tempo_ms": [
+        8583.3,
+        8726.1
+      ],
       "norma_ok": true
     },
     "registro_oficial": {
       "arquivo": "RESULTADO-QUANTICA-REAL.txt",
-      "ativador": "ATIVA-QUANTICA-REAL.bat",
-      "sha256_primeira_prova": "0a3efb7f0ed69bf3",
-      "sha256_run_oficial": "f9f5b772a8547c76"
+      "ativador": "ATIVA-QUANTICA-REAL.bat"
     },
     "caminho_hardware_real": "quantico_real.py pronto para IBM Quantum (a chave e do dono e fica somente na maquina dele - o sistema nunca cria/guarda credenciais)"
   },
@@ -60,14 +68,26 @@
       "http_ms_total": 67174,
       "tokens_gerados": 80,
       "servidor_tok_s": 1.48,
-      "prefill_tok_s": 1.70
+      "prefill_tok_s": 1.7
     },
     "turbo": {
       "threads": 4,
       "prioridade": "alta (4 nucleos fisicos)",
-      "medicoes_http_tok_s": [1.91, 1.77, 1.90],
-      "medicoes_servidor_tok_s": [2.23, 1.76, 1.91],
-      "prefill_tok_s": [3.68, 2.18, 2.76],
+      "medicoes_http_tok_s": [
+        1.91,
+        1.77,
+        1.9
+      ],
+      "medicoes_servidor_tok_s": [
+        2.23,
+        1.76,
+        1.91
+      ],
+      "prefill_tok_s": [
+        3.68,
+        2.18,
+        2.76
+      ],
       "ms_total_final": 41999
     },
     "ganho_pct": 60,
@@ -79,18 +99,42 @@
     "servico": "S160-NUCLEO-RACIOCINIO v5-LIVRE (cadeia oficial de raciocinio da IA Brasil)",
     "acionador": "LIGA-NUCLEO-VIVO.bat",
     "roteador_born": true,
-    "exato_12x7": {"resposta": 84, "tempo_s": 0.0, "rota": "MATEMATICA-EXATA (AST)"},
-    "exato_47x23_mais_150": {"resposta": 1231, "tempo_s": 0.0, "rota": "MATEMATICA-EXATA (AST)", "conta_calibracao": true},
+    "exato_12x7": {
+      "resposta": 84,
+      "tempo_s": 0.0,
+      "rota": "MATEMATICA-EXATA (AST)"
+    },
+    "exato_47x23_mais_150": {
+      "resposta": 1231,
+      "tempo_s": 0.0,
+      "rota": "MATEMATICA-EXATA (AST)",
+      "conta_calibracao": true
+    },
     "s80_profunda_fria": {
       "pergunta": "Resolva 3x+7=22 passo a passo, teste a solucao e diga se esta correta.",
-      "p_born": [0.358, 0.479, 0.163],
+      "p_born": [
+        0.358,
+        0.479,
+        0.163
+      ],
       "perfil_alvo": "S80",
       "tempo_rascunho_s": 90.94,
       "rascunho_correto": true,
       "refino": "profundo ao fundo"
     },
-    "s80_quente_cache": {"cache": true, "tempo_rascunho_s": 0.0, "ganho": "90.94s -> 0.0s"},
-    "modulos_on": ["roteador de Born", "matematica exata (AST sem eval)", "banco de fatos", "memoria QX (10 episodios)", "escrita sem limites", "tela de programacao ao vivo"],
+    "s80_quente_cache": {
+      "cache": true,
+      "tempo_rascunho_s": 0.0,
+      "ganho": "90.94s -> 0.0s"
+    },
+    "modulos_on": [
+      "roteador de Born",
+      "matematica exata (AST sem eval)",
+      "banco de fatos",
+      "memoria QX (10 episodios)",
+      "escrita sem limites",
+      "tela de programacao ao vivo"
+    ],
     "honestidade": "motor quantico-INSPIRADO, matematica real em CPU; nao e QPU fisica"
   },
   "arquivos_entregues_no_pc": [
