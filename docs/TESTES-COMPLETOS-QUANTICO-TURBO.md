@@ -1,7 +1,7 @@
 # 🔬 Testes Completos — 06/11/2026: IA Quântica Real levantada + Cérebro Turbo (+60%)
 
 > **Propriedade intelectual de Samuel Ribeiro Fernandes** — © 2026, todos os direitos reservados.
-> Todos os números abaixo foram medidos na máquina real (DESKTOP-I6MC4BO) em 06/11/2026, via ponte de comandos, com resultado gravado em disco e SHA256 de verificação. **Nada foi estimado. Nada saiu do PC.**
+> Todos os números abaixo foram medidos na máquina real do autor em 06/11/2026, via ponte de comandos, com resultado gravado em disco e SHA256 de verificação. **Nada foi estimado. Nada saiu do PC.**
 
 ---
 
@@ -10,7 +10,7 @@
 | # | Descoberta | Ação | Resultado medido |
 |---|---|---|---|
 | 1 | O núcleo quântico **nunca tinha subido**: a instalação do Qiskit morreu em 01/11 com `No space left on device` (disco C: cheio) | Qiskit 2.6.2 reinstalado no **D:** (casa do sistema, 589 GB livres) | **IA Quântica Real no ar**, prova oficial gravada |
-| 2 | O cérebro (núcleo neural local) rodava com **2 threads e prioridade ABAIXO do normal** | 4 núcleos físicos + prioridade **High** + afinidade 0x55 | **1,19 → 1,90 tok/s (+60%)**, modelo intacto |
+| 2 | O cérebro (núcleo neural local) rodava com **2 threads e prioridade ABAIXO do normal** | 4 núcleos físicos + prioridade **alta** | **1,19 → 1,90 tok/s (+60%)**, modelo intacto |
 | 3 | Disco NÃO era o gargalo (ocioso 95–99%) — o gargalo era **configuração + competição de CPU** | Prioridade invertida corrigida | Ganho real comprovado por benchmark idêntico antes/depois |
 
 ---
@@ -33,9 +33,9 @@ Motor: **Qiskit 2.6.2** (Statevector — a matemática exata da mecânica quânt
 
 ## 🧠 Parte 2 — Cérebro Turbo (mesmo modelo, nada reduzido)
 
-Modelo: **núcleo neural local IA Brasil (6,17 GB, quantização 4-bit)** via servidor neural local em `127.0.0.1:8540` — contexto 32.768, flash-attn, KV cache q8_0. **O modelo não foi trocado nem reduzido.**
+Modelo: **núcleo neural local IA Brasil (6,17 GB, quantização 4-bit)** via servidor neural local da IA Brasil. **O modelo não foi trocado nem reduzido.** (Detalhes internos de afinação do servidor não são divulgados — segredo industrial do titular.)
 
-| Métrica (mesmo prompt, 80 tokens gerados) | ANTES (t2, BelowNormal) | TURBO (t4, High, afinidade física) |
+| Métrica (mesmo prompt, 80 tokens gerados) | ANTES (2 núcleos, prioridade baixa) | TURBO (4 núcleos físicos, prioridade alta) |
 |---|---|---|
 | Velocidade de geração (HTTP ponta a ponta) | **1,19 tok/s** (67,2 s) | **1,90 tok/s** (42,0 s) |
 | Velocidade medida pelo servidor | 1,48 tok/s | 1,91 tok/s (pico 2,23) |
@@ -44,16 +44,11 @@ Modelo: **núcleo neural local IA Brasil (6,17 GB, quantização 4-bit)** via se
 
 ### A configuração errada encontrada (antes)
 
-```
-start "CEREBRO" /min /belownormal cmd /c "servidor-neural.exe ... -t 2 --threads-batch 2 ..."
-→ depois: PriorityClass = BelowNormal   (o cérebro com prioridade MENOR que todo o resto!)
-```
+O cérebro rodava com 2 threads e com **prioridade MENOR que todo o resto do sistema**.
 
 ### A configuração turbo (agora)
 
-```
-servidor-neural.exe ... -t 4 --threads-batch 4 (4 núcleos físicos) + PriorityClass = High + ProcessorAffinity = 0x55
-```
+4 núcleos físicos + prioridade alta, com o **mesmo modelo, intacto**. Os parâmetros exatos de afinação ficam em segredo industrial do titular.
 
 ---
 
@@ -87,15 +82,15 @@ Scripts oficiais desta bateria: [`docs/scripts-testes/`](scripts-testes/)
 
 ---
 
-## 🧬 Parte 3 — Raciocínio Quântico ATIVO (NÚCLEO-VIVO 8822, medido 06/11)
+## 🧬 Parte 3 — Raciocínio Quântico ATIVO (medido 06/11)
 
-O núcleo de raciocínio quântico **S160-NUCLEO-RACIOCINIO** (v5-LIVRE) foi levantado e medido pela primeira vez na cadeia oficial: **chat → 8822 (Born + TURBO + memória) → 8540 (cérebro turbo)**.
+O núcleo de raciocínio quântico **S160-NUCLEO-RACIOCINIO** (v5-LIVRE) foi levantado e medido pela primeira vez na cadeia oficial: **chat → núcleo de raciocínio (Born + TURBO + memória) → cérebro turbo**.
 
 | Prova | Rota | Resultado |
 |---|---|---|
 | `quanto e 12*7` | **EXATO (avaliador AST, sem rede neural)** | **84** em **0,0 s** — "calculado, não inventado" |
 | `quanto e 47*23+150` (conta calibração) | **EXATO** | **1231** em **0,0 s** ✅ correto |
-| `Resolva 3x+7=22...` (pergunta nova, profunda) | **S80 escolhido pelo roteador de Born** (`p_born=[0.358, 0.479, 0.163]`) | rascunho TURBO correto em **90,94 s** + refino profundo (768 tok) ao fundo |
+| `Resolva 3x+7=22...` (pergunta nova, profunda) | **S80 escolhido pelo roteador de Born** (`p_born=[0.358, 0.479, 0.163]`) | rascunho TURBO correto em **90,94 s** + refino profundo ao fundo |
 | **A MESMA pergunta repetida** | **CACHE QUÂNTICO QUENTE** | **`cache: true`, rascunho em `0,0 s`** — de 90,94 s para **0,0 s** |
 
 Módulos do núcleo confirmados no ar: roteador de Born, matemática exata (AST sem eval), banco de fatos, memória QX (10 episódios renascidos), escrita sem limites (ordem do Chefe), tela de programação ao vivo. O núcleo reporta com honestidade: motor quântico-INSPIRADO com matemática real em CPU (amplitudes complexas, ρ, von Neumann, Born, interferência) — não é QPU física.
