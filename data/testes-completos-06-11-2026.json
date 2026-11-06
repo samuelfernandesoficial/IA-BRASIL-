@@ -1,0 +1,110 @@
+{
+  "titulo": "Testes completos IA Brasil - nucleo quantico real levantado + cerebro turbo",
+  "data": "2026-11-06",
+  "maquina": {
+    "nome": "DESKTOP-I6MC4BO",
+    "cpu": "Intel Core i7-3770 (4 nucleos / 8 threads, 3.4 GHz, Ivy Bridge, sem AVX2)",
+    "ram_total_gb": 16.0,
+    "ram_livre_inicio_gb": 4.37,
+    "gpu_para_ia": "nenhuma (inferencia 100% CPU)",
+    "so": "Windows x64",
+    "plano_energia": "Alto desempenho",
+    "disco_c_livre_gb": 10.6,
+    "disco_d_livre_gb": 589.3
+  },
+  "diagnostico": {
+    "qiskit_morte_anterior": "01/11/2026 - pip install abortou com 'No space left on device' (C: cheio) - qiskit_log.txt",
+    "gargalo_disco": "nao (ocioso 95-99%)",
+    "gargalo_real": "cerebro com -t 2 e prioridade BelowNormal + competicao de CPU (chrome, WinUsbDisplay)",
+    "defender_exclusao_sistema": true,
+    "competidores_cpu_acumulado_s": {"chrome": 1796.3, "WinUsbDisplay": 1721.0, "dwm": 780.6}
+  },
+  "quantico_local": {
+    "motor": "Qiskit 2.6.2 Statevector (matematica exata, local, sem chave, sem internet)",
+    "python": "3.12",
+    "instalacao": "biblioteca embarcada no disco D: (pasta QISKIT-LIB)",
+    "bell_2q": {
+      "circuitos": 1000,
+      "ms_por_circuito": 0.348,
+      "emaranhamento_pct": 100.0,
+      "detalhe": "P(00)+P(11) = 1.0000"
+    },
+    "ghz_20_nucleo_oficial_s160": {
+      "amplitudes": 1048576,
+      "montagem_ms": [442.9, 450.1],
+      "estado_dominante": "00000000000000000000",
+      "prob_dominante_pct": 50.0
+    },
+    "ghz_24_carga_maxima": {
+      "amplitudes": 16777216,
+      "tempo_ms": [8583.3, 8726.1],
+      "norma_ok": true
+    },
+    "registro_oficial": {
+      "arquivo": "RESULTADO-QUANTICA-REAL.txt",
+      "ativador": "ATIVA-QUANTICA-REAL.bat",
+      "sha256_primeira_prova": "0a3efb7f0ed69bf3",
+      "sha256_run_oficial": "f9f5b772a8547c76"
+    },
+    "caminho_hardware_real": "quantico_real.py pronto para IBM Quantum (a chave e do dono e fica somente na maquina dele - o sistema nunca cria/guarda credenciais)"
+  },
+  "cerebro_neural_local": {
+    "modelo": "nucleo neural local IA Brasil (6.17 GB, quantizacao 4-bit)",
+    "servidor": "servidor neural local 127.0.0.1:8540",
+    "contexto_tokens": 32768,
+    "flash_attn": true,
+    "kv_cache": "q8_0",
+    "modelo_alterado": false,
+    "antes": {
+      "threads": 2,
+      "prioridade": "BelowNormal",
+      "http_tok_s": 1.19,
+      "http_ms_total": 67174,
+      "tokens_gerados": 80,
+      "servidor_tok_s": 1.48,
+      "prefill_tok_s": 1.70
+    },
+    "turbo": {
+      "threads": 4,
+      "threads_batch": 4,
+      "prioridade": "High",
+      "afinidade_mascara": "0x55 (4 nucleos fisicos)",
+      "medicoes_http_tok_s": [1.91, 1.77, 1.90],
+      "medicoes_servidor_tok_s": [2.23, 1.76, 1.91],
+      "prefill_tok_s": [3.68, 2.18, 2.76],
+      "ms_total_final": 41999
+    },
+    "ganho_pct": 60,
+    "prompt_teste": "Conte em voz alta de um a trinta, so os numeros separados por espaco.",
+    "max_tokens": 160,
+    "tokens_gerados_real": 80
+  },
+  "raciocinio_quantico_nucleo_vivo": {
+    "servico": "S160-NUCLEO-RACIOCINIO v5-LIVRE na porta 8822 (pythonw, cadeia oficial chat->8822->8540)",
+    "acionador": "LIGA-NUCLEO-VIVO.bat",
+    "roteador_born": true,
+    "exato_12x7": {"resposta": 84, "tempo_s": 0.0, "rota": "MATEMATICA-EXATA (AST)"},
+    "exato_47x23_mais_150": {"resposta": 1231, "tempo_s": 0.0, "rota": "MATEMATICA-EXATA (AST)", "conta_calibracao": true},
+    "s80_profunda_fria": {
+      "pergunta": "Resolva 3x+7=22 passo a passo, teste a solucao e diga se esta correta.",
+      "p_born": [0.358, 0.479, 0.163],
+      "perfil_alvo": "S80",
+      "tempo_rascunho_s": 90.94,
+      "rascunho_correto": true,
+      "refino": "profundo ao fundo, teto 768 tokens (escrita sem limites)"
+    },
+    "s80_quente_cache": {"cache": true, "tempo_rascunho_s": 0.0, "ganho": "90.94s -> 0.0s"},
+    "modulos_on": ["roteador de Born", "matematica exata (AST sem eval)", "banco de fatos", "memoria QX (10 episodios)", "escrita sem limites", "tela de programacao ao vivo"],
+    "honestidade": "motor quantico-INSPIRADO, matematica real em CPU; nao e QPU fisica"
+  },
+  "arquivos_entregues_no_pc": [
+    "TURBO-QUANTICO.bat",
+    "ATIVA-QUANTICA-REAL.bat",
+    "INICIA-TURBO-NORMAL.bat",
+    "bench-cerebro.ps1",
+    "bench_quantico.py",
+    "RESULTADO-QUANTICA-REAL.txt",
+    "QISKIT-LIB/ (qiskit 2.6.2 no disco D:)"
+  ],
+  "propriedade": "Samuel Ribeiro Fernandes (c) 2026 - todos os direitos reservados"
+}
