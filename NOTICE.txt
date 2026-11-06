@@ -1,0 +1,26 @@
+IA BRASIL - PILHA LOCAL DE 3 CEREBROS
+Kernels S40 / S80 / S160
+================================================================
+
+PROPRIEDADE INTELECTUAL - AVISO LEGAL
+
+A pilha IA Brasil, a interface IA-PRO, a ponte FUSION e todos os
+kernels e modulos descritos neste repositorio - S40, S80, S160, o
+turbo de respostas provadas e o pacote de capacidades - sao
+propriedade intelectual exclusiva de:
+
+    Samuel Ribeiro Fernandes
+
+com todos os direitos reservados.
+
+- Nenhum codigo-fonte e divulgado neste repositorio: apenas
+  comportamento observado e metricas medidas.
+- Os sistemas de referencia do comparativo aparecem somente como
+  classes genericas, sem identificacao de marcas, por decisao do autor.
+- Este material pode ser compartilhado integralmente para
+  demonstracao, desde que sem alteracoes e mantendo este aviso.
+
+Contato: Samuel Ribeiro Fernandes
+
+© 2026 Samuel Ribeiro Fernandes. All rights reserved.
+Todos os direitos reservados.
