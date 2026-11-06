@@ -1,10 +1,19 @@
-IA BRASIL - PILHA LOCAL DE 3 CEREBROS
+IA BRASIL® - PILHA LOCAL DE 3 CEREBROS
 Kernels S40 / S80 / S160
+================================================================
+
+MARCA REGISTRADA
+
+"IA BRASIL(R)" e marca registrada de Samuel Ribeiro Fernandes.
+Os nomes dos kernels S40, S80 e S160 tambem identificam a
+tecnologia de propriedade do titular. Uso nao autorizado e
+proibido por lei.
+
 ================================================================
 
 PROPRIEDADE INTELECTUAL - AVISO LEGAL
 
-A pilha IA Brasil, a interface IA-PRO, a ponte FUSION e todos os
+A pilha IA Brasil®, a interface IA-PRO, a ponte FUSION e todos os
 kernels e modulos descritos neste repositorio - S40, S80, S160, o
 turbo de respostas provadas e o pacote de capacidades - sao
 propriedade intelectual exclusiva de:
