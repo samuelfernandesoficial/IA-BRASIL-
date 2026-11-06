@@ -104,7 +104,7 @@
    }
   ]
  },
- "nucleo_8540": {
+ "nucleo_local": {
   "curto": {
    "total_s": 16.94,
    "prompt_tokens": 13,
