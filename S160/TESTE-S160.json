@@ -1,0 +1,146 @@
+{
+ "data_iso": "2026-11-05 22:23:21",
+ "kernel": "S160",
+ "papel": "orquestrador: roteamento, 3 cerebros, modulos e memoria",
+ "servicos": {
+  "orquestrador_8899_online": true,
+  "pagina_bytes": 53228,
+  "http_ms": 20.8,
+  "nucleo_8540_online": true,
+  "nucleo_ping_s": 2.79
+ },
+ "login": {
+  "conta": "ja existia, entrou",
+  "nucleo_vivo": true,
+  "pesado_vivo": true,
+  "nuvem_configurada": true,
+  "conversa_id": 71
+ },
+ "chat_real": {
+  "turbo": {
+   "total_s": 0.24,
+   "ttft_s": 0.01,
+   "via": "IA Brasil - Turbo local",
+   "deltas": 3,
+   "chars": 256,
+   "texto": "== RACIOCINIO == expressao montada: 47 * 23+150 caminho 1 (parser proprio, exato): 1231 caminho 2 (ast + Fraction, exato): 1231 os dois caminhos concordam -> verificado  == RESPOSTA == A resposta exata e 1231.  [IA Brasi",
+   "texto600": "== RACIOCINIO == expressao montada: 47 * 23+150 caminho 1 (parser proprio, exato): 1231 caminho 2 (ast + Fraction, exato): 1231 os dois caminhos concordam -> verificado  == RESPOSTA == A resposta exata e 1231.  [IA Brasil - Turbo local | verificado | 0 ms]",
+   "resposta_correta": true
+  },
+  "nucleo": {
+   "total_s": 0.22,
+   "ttft_s": 0.01,
+   "via": "IA Brasil - Turbo local",
+   "deltas": 2,
+   "chars": 619,
+   "texto": "DIRETO ------ resposta direta abaixo.  DETALHES -------- contexto usado: tema da conversa: explique, memoria, frase ultimos turnos: usuario: Explique o que e memoria RAM em uma frase curta. usuario: qual a capital da fra",
+   "texto600": "DIRETO ------ resposta direta abaixo.  DETALHES -------- contexto usado: tema da conversa: explique, memoria, frase ultimos turnos: usuario: Explique o que e memoria RAM em uma frase curta. usuario: qual a capital da franca? usuario: vale a pena notebook ou desktop para es  PROXIMOS PASSOS --------------- diga se quer mais profundidade em alguma parte.  IA Brasil-MAXIMO v1.0 | processo replicado do IA Brasil-Flash (7 fases + verificacao) | sem rede, sem API, 100% local base usada: memoria local (3 fatos) + modulos: m1-raciocinio(interno) + m7-verificador + m8-autocorrecao(3 tentativas) | tipo "
+  },
+  "honestidade": {
+   "total_s": 0.28,
+   "ttft_s": 0.01,
+   "via": "IA Brasil - Turbo local",
+   "deltas": 2,
+   "chars": 619,
+   "texto": "DIRETO ------ resposta direta abaixo.  DETALHES -------- contexto usado: tema da conversa: explique, memoria, frase ultimos turnos: usuario: qual a capital da franca? usuario: vale a pena notebook ou desktop para estudar",
+   "texto600": "DIRETO ------ resposta direta abaixo.  DETALHES -------- contexto usado: tema da conversa: explique, memoria, frase ultimos turnos: usuario: qual a capital da franca? usuario: vale a pena notebook ou desktop para estudar python? usuario: Explique o que e memoria RAM em uma  PROXIMOS PASSOS --------------- diga se quer mais profundidade em alguma parte.  IA Brasil-MAXIMO v1.0 | processo replicado do IA Brasil-Flash (7 fases + verificacao) | sem rede, sem API, 100% local base usada: memoria local (3 fatos) + modulos: m1-raciocinio(interno) + m7-verificador + m8-autocorrecao(3 tentativas) | tipo ",
+   "contem_paris": false
+  },
+  "criativo": {
+   "total_s": 0.31,
+   "ttft_s": 0.01,
+   "via": "IA Brasil - Turbo local",
+   "deltas": 2,
+   "chars": 619,
+   "texto": "DIRETO ------ resposta direta abaixo.  DETALHES -------- contexto usado: tema da conversa: explique, memoria, frase ultimos turnos: usuario: vale a pena notebook ou desktop para estudar python? usuario: Explique o que e ",
+   "texto600": "DIRETO ------ resposta direta abaixo.  DETALHES -------- contexto usado: tema da conversa: explique, memoria, frase ultimos turnos: usuario: vale a pena notebook ou desktop para estudar python? usuario: Explique o que e memoria RAM em uma frase curta. usuario: qual a capit  PROXIMOS PASSOS --------------- diga se quer mais profundidade em alguma parte.  IA Brasil-MAXIMO v1.0 | processo replicado do IA Brasil-Flash (7 fases + verificacao) | sem rede, sem API, 100% local base usada: memoria local (3 fatos) + modulos: m1-raciocinio(interno) + m7-verificador + m8-autocorrecao(3 tentativas) | tipo "
+  },
+  "pesado": {
+   "total_s": 0.27,
+   "ttft_s": 0.0,
+   "via": "IA Brasil - Turbo local",
+   "deltas": 18,
+   "chars": 2496,
+   "texto": "DIRETO ------ abaixo o parecer consolidado da equipe sobre: modo profundo: analise em detalhes se vale a pena notebook ou desktop para estudar python  PARECER DA EQUIPE ----------------- ### PROGRAMADOR  class Exemplo:  ",
+   "texto600": "DIRETO ------ abaixo o parecer consolidado da equipe sobre: modo profundo: analise em detalhes se vale a pena notebook ou desktop para estudar python  PARECER DA EQUIPE ----------------- ### PROGRAMADOR  class Exemplo:      \"\"\"Estrutura basica de classe: estado + metodos claros.\"\"\"        def __init__(self, nome):          self.nome = nome          self._historico = []        def registrar(self, evento):          self._historico.append(evento)        def mostrar(self):          return \"%s: %d evento(s)\" % (self.nome, len(self._historico))      if __name__ == \"__main__\":      e = Exemplo(\"teste",
+   "episodios_antes": 25
+  },
+  "episodios_antes": 25,
+  "episodios_depois": 26,
+  "s40_escreveu_no_ciclo": true
+ },
+ "modulos_oficiais": {
+  "m1_raciocinio": {
+   "ok": true,
+   "ms": 1.9,
+   "erro": null,
+   "saida_final": "  m1 raciocinio: 12/12"
+  },
+  "m2_matematica": {
+   "ok": true,
+   "ms": 3.7,
+   "erro": null,
+   "saida_final": "  m2 matematica: 20/20"
+  },
+  "m3_programacao": {
+   "ok": true,
+   "ms": 2.1,
+   "erro": null,
+   "saida_final": "  m3 programacao: 12/12"
+  },
+  "m4_memoria_contexto": {
+   "ok": true,
+   "ms": 1.5,
+   "erro": null,
+   "saida_final": "  m4 memoria contexto: 7/7"
+  },
+  "m5_memoria_persistente": {
+   "ok": true,
+   "ms": 3.4,
+   "erro": null,
+   "saida_final": "  m5 memoria persistente: 11/11"
+  },
+  "m6_planejador": {
+   "ok": true,
+   "ms": 0.3,
+   "erro": null,
+   "saida_final": "  m6 planejador: 10/10"
+  },
+  "m7_verificador": {
+   "ok": true,
+   "ms": 12.9,
+   "erro": null,
+   "saida_final": "  m7 verificador: 8/8"
+  },
+  "m8_autocorrecao": {
+   "ok": true,
+   "ms": 0.1,
+   "erro": null,
+   "saida_final": "  m8 autocorrecao: 7/7"
+  },
+  "m9_agentes": {
+   "ok": true,
+   "ms": 0.2,
+   "erro": null,
+   "saida_final": "  m9 agentes: 7/7"
+  },
+  "m10_ferramentas": {
+   "ok": true,
+   "ms": 2.1,
+   "erro": null,
+   "saida_final": "  m10 ferramentas: 12/12"
+  }
+ },
+ "modulos_ok": "10/10",
+ "modulo_vivo": {
+  "calc_1": "{'ok': True, 'resposta': '38.42857142857143', 'valor': 38.42857142857143, 'passos': ['expressao interpretada: (12*12 + 5**3) / 7', 'operacoes resolvidas na ordem correta de precedencia', 'resultado: 38.42857142857143']}",
+  "calc_1_ms": 0.08,
+  "seq_2_6_12_20_30": "{'ok': True, 'padrao': 'quadratica (2a diferenca 2)', 'proximo': '42', 'resposta': 'proximo numero: 42', 'passos': [\"diferencas: ['4', '6', '8', '10']\", 'segunda diferenca constante = 2', 'proximo = 42']}",
+  "seq_ms": 0.03,
+  "silogismo_ok": true,
+  "silogismo_ms": 0.02,
+  "planejador_passos": 7,
+  "planejador_progresso": "0.0",
+  "planejador_ms": 0.03
+ }
+}
